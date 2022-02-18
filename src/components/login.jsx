@@ -3,7 +3,7 @@ import { Grid,Paper, Avatar, TextField, Button, Typography,Link } from '@mui/mat
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
-const Login=()=>{
+const Login=({handleChange})=>{
 
     const paperStyle={padding :20,height:'70vh',width:280, margin:"20px auto"}
     const avatarStyle={backgroundColor:'#1bbd7e'}
@@ -33,7 +33,7 @@ const Login=()=>{
                 </Link>
                 </Typography>
                 <Typography > Do you have an account ?
-                     <Link href="#" >
+                     <Link href="#" onClick={()=>handleChange("event",1)} >
                         Sign Up 
                 </Link>
                 </Typography>
