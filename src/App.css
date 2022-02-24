@@ -1,9 +1,10 @@
 .App {
   text-align: center;
+  background-color: aqua;
  
 }
  
-.label{
+/* .label{
   display: block;
   font-size: larger;
   color: white;
@@ -47,4 +48,4 @@
   width: fit-content;
   height: 50px;
   padding: 5px;
-}
+} */
